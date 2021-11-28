@@ -78,7 +78,7 @@ a {
     margin-left: 20px;
 }
 /* Content-text selectors */
-content h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;  
 }
@@ -95,7 +95,7 @@ content h2 {
     margin-left: 25px;
 }
 /* Content-Sections */
-.content section {
+.content-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -128,11 +128,11 @@ content h2 {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--title-font);
     text-align: center;
 }
 
